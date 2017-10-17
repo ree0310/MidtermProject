@@ -36,7 +36,7 @@ public class Tab2Fragment extends Fragment {
                 // Activity로 이동하는 코드
                 Intent i = new Intent(getContext(), Main3Activity.class);
                 startActivity(i);
-                Toast.makeText(getActivity(), "Testing Button Click 2", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Testing Scene Button", Toast.LENGTH_SHORT).show();
         };
 
     });

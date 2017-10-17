@@ -23,8 +23,6 @@ public class Tab1Fragment extends Fragment {
     }
 
 
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -37,7 +35,7 @@ public class Tab1Fragment extends Fragment {
                 // Activity로 이동하는 코드
                 Intent i = new Intent(getContext(), Main2Activity.class);
                 startActivity(i);
-                Toast.makeText(getActivity(), "Testing Button Click 1", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Testing Introduce Button", Toast.LENGTH_SHORT).show();
         };
 
     });

@@ -1,7 +1,3 @@
-<!--<FrameLayout -->
-
-    <!--&lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
-
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,14 +6,16 @@
     android:background="#B48DE8">
 
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Scene을 사용한 Activity로 넘어가려면 밑에 있는 버튼을 클릭해주세요."
         android:textSize="25sp"
-        android:text="Tab 2 Fragment"
-        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:background="#CEB3E8"
+        android:textColor="#000000"
         android:id="@+id/textTab2"/>
 
     <Button
@@ -27,9 +25,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="183dp"
-        android:onClick="goTo2"
-        android:text="Tab2Button" />
+        android:onClick="goTo3"
+        android:text="Scene" />
 
 
     </RelativeLayout>
-<!--</FrameLayout>-->
+

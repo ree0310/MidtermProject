@@ -46,9 +46,9 @@ public class TabLayoutActivity extends AppCompatActivity {
 
     private void setUpViewPager(ViewPager viewPager){
         TabPagerAdapter adapter = new TabPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new Tab1Fragment(), "TAB1");
-        adapter.addFragment(new Tab2Fragment(), "TAB2");
-        adapter.addFragment(new Tab3Fragment(), "TAB3");
+        adapter.addFragment(new Tab1Fragment(), "Introduce");
+        adapter.addFragment(new Tab2Fragment(), "Scene");
+        adapter.addFragment(new Tab3Fragment(), "Toast");
         viewPager.setAdapter(adapter);
     }
 }

@@ -1,0 +1,34 @@
+<!--<FrameLayout -->
+
+    <!--&lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tablayoutproject2.Tab1Fragment"
+    android:background="#FFA0C2">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:text="Tab 3 Fragment"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textTab3"/>
+
+    <Button
+        android:id="@+id/btnTEST3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tab3Button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="183dp" />
+
+
+    </RelativeLayout>
+<!--</FrameLayout>-->
